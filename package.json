@@ -1,0 +1,32 @@
+{
+  "name": "memoarray",
+  "version": "0.1.0",
+  "description": "A simple javascript utility for array binding memoization. ",
+  "main": "index.js",
+  "author": "Krisztian Ferencz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krisztiaan/memoarray.git"
+  },
+  "keywords": [
+    "react",
+    "function",
+    "array",
+    "memoize",
+    "jsx",
+    "styles",
+    "memoarray"
+  ],
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "bugs": {
+    "url": "https://github.com/krisztiaan/memoarray/issues"
+  },
+  "homepage": "https://github.com/krisztiaan/memoarray#readme",
+  "scripts": {
+    "test": "mocha"
+  }
+}
