@@ -5,7 +5,7 @@ memoarray
 [![Build Status](https://travis-ci.org/krisztiaan/memoarray.svg?branch=master)](https://travis-ci.org/krisztiaan/memoarray)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
-A simple javascript utility for array binding memoization. It's motivated [memoarray](https://github.io/supnate/memoarray), and the want to reduce unneccesary re-render due to prop change in styles when array prop is supplied.
+A simple javascript utility for array binding memoization. It's motivated by and based on [memobind](https://github.io/supnate/memobind), and the want to reduce unneccesary re-render due to prop change in styles when array prop is supplied.
 
 
 Install with npm
