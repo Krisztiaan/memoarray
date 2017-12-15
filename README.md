@@ -12,6 +12,8 @@ Install with npm
 
 ```sh
 npm install memoarray
+// or
+yarn add memoarray
 ```
 
 Use with node.js, browserify or webpack:
