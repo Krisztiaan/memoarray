@@ -23,9 +23,13 @@ var memoarray = require('memoarray');
 memoarray(context, ...args);
 ```
 
-**CAUTION: `memoarray(this, undefined, undefined, null) === memoarray(this, undefined, null)`
- check out !(this pen)[https://codepen.io/Krisztiaan/pen/XVmbjW]. If you have a solution, feel free to open a PR about it.
-** 
+**CAUTION: there are some possible issues around `undefined` values**
+
+```js
+memoarray(this, undefined, undefined, null) === memoarray(this, undefined, null) // true
+```
+
+Check out [this pen](https://codepen.io/Krisztiaan/pen/XVmbjW). If you have a solution, feel free to open a PR about it.
 
 ### Motivation
 An inline array initializer `[element1, element2]` in a JSX prop will create a brand new array on every single render. This is bad for performance, as it will result in the garbage collector being invoked way more than is necessary.
