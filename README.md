@@ -3,7 +3,7 @@ memoarray
 
 [![Version](http://img.shields.io/npm/v/memoarray.svg)](https://www.npmjs.org/package/memoarray)
 [![Build Status](https://travis-ci.org/krisztiaan/memoarray.svg?branch=master)](https://travis-ci.org/krisztiaan/memoarray)
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![Greenkeeper badge](https://badges.greenkeeper.io/Krisztiaan/memoarray.svg)](https://greenkeeper.io/)
 
 A simple javascript utility for array binding memoization. It's motivated by and based on [memobind](https://github.io/supnate/memobind), and the want to reduce unneccesary re-render due to prop change in styles when array prop is supplied.
 
