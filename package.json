@@ -19,8 +19,8 @@
     "memoarray"
   ],
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^2.5.3"
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
   },
   "bugs": {
     "url": "https://github.com/krisztiaan/memoarray/issues"
