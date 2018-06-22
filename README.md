@@ -2,25 +2,18 @@ memoarray
 ===========
 
 [![Version](http://img.shields.io/npm/v/memoarray.svg)](https://www.npmjs.org/package/memoarray)
-[![Build Status](https://travis-ci.org/krisztiaan/memoarray.svg?branch=master)](https://travis-ci.org/krisztiaan/memoarray)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 A simple javascript utility for array binding memoization. It's motivated by and based on [memobind](https://github.io/supnate/memobind), and the want to reduce unneccesary re-render due to prop change in styles when array prop is supplied.
 
 
-Install with npm
+Install with `npm install memoarray` or `yarn add memoarray`
 
-```sh
-npm install memoarray
-// or
-yarn add memoarray
-```
-
-Use with node.js, browserify or webpack:
+Usage:
 
 ```js
 var memoarray = require('memoarray');
-memoarray(context, ...args);
+memoarray(context, item1, item2, item3);
 ```
 
 **CAUTION: there are some possible issues around `undefined` values**
