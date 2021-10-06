@@ -2,6 +2,7 @@
   "name": "memoarray",
   "version": "0.1.0",
   "description": "A simple javascript utility for array binding memoization. ",
+  "type": "module",
   "main": "index.js",
   "author": "Krisztian Ferencz",
   "license": "MIT",
